@@ -11,8 +11,12 @@
   "devDependencies": {
     "@types/jest": "^29.5.2",
     "@types/sinon": "^10.0.15",
+    "@types/validator": "^13.11.3",
     "jest": "^29.6.0",
     "sinon": "^15.2.0",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "validator": "^13.11.0"
   }
 }
