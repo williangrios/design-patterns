@@ -1,0 +1,1 @@
+# Desacoplar uma abstração (código de alto nível) da sua implementação (código de baixo nível), de modo que as duas possam variar e evoluir independentemente
