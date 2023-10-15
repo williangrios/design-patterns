@@ -18,7 +18,5 @@ function validaEmailFn(emailValidator: FnEmailValidatorProtocol, email: string):
     }
 }
 
-
-
 validaEmailClass( new EmailValidatorAdapter(), 'williangrios@yahoo.com.br')
 validaEmailFn( emailValidatorFnAdapter, 'williangrios@yahoo.com.br')
