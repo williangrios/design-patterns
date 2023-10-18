@@ -1,0 +1,1 @@
+# Agregar responsabilidades adicionais a um objeto dinamicamente. Os decorators fornecem uma alternativa flexível ao uso de subclasses para extensão de funcionalidades
