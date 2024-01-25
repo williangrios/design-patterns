@@ -1,4 +1,4 @@
-import { MainDishBuilder } from "../../creational/builder/example1/classes/main-dish-builder"
+import { MainDishBuilder } from "../../../creational/builder/example1/classes/main-dish-builder"
 
 export class BuilderFacade{
     // essa é a fachada para a pasta creational/builder/example1/index.ts
