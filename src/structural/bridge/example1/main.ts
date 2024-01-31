@@ -1,7 +1,7 @@
-import { Radio } from "./device/radio";
-import { Tv } from "./device/tv";
-import { RemoteControl } from "./remote-control/remote-control";
-import { RemoteControlWithVolume } from "./remote-control/remote-control-with-volume";
+import { Radio } from "./example1/device/radio";
+import { Tv } from "./example1/device/tv";
+import { RemoteControl } from "./example1/remote-control/remote-control";
+import { RemoteControlWithVolume } from "./example1/remote-control/remote-control-with-volume";
 
 function clientCode(abstraction: RemoteControl | RemoteControlWithVolume): void{
     abstraction.togglePower()
