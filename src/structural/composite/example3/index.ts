@@ -11,15 +11,15 @@ class Developer implements Employee{
 
     }
 
-    getName(): string {
+    public getName(): string {
         return this.name
     }
 
-    getSalary(): number {
+    public getSalary(): number {
         return this.salary
     }
 
-    getRole(): string {
+    public getRole(): string {
         return "Developer"
     }
 }
@@ -29,15 +29,15 @@ class Designer implements Employee{
 
     }
 
-    getName(): string {
+    public getName(): string {
         return this.name
     }
 
-    getSalary(): number {
+    public getSalary(): number {
         return this.salary
     }
 
-    getRole(): string {
+    public getRole(): string {
         return "Designer"
     }
 }
@@ -57,30 +57,30 @@ class Manager implements CompositeEmployee{
 
     }
 
-    getName(): string {
+    public getName(): string {
         return this.name
     }
 
-    getSalary(): number {
+    public getSalary(): number {
         return this.salary
     }
 
-    getRole(): string {
+    public getRole(): string {
         return "Manager"
     }
 
-    addEmployee(employee: Employee): void {
+    public addEmployee(employee: Employee): void {
         this.employees.push(employee)
     }
     
-    removeEmployee(employee: Employee): void {
+    public removeEmployee(employee: Employee): void {
         const index = this.employees.indexOf(employee)
         if (index !== -1){
             this.employees.splice(index, 1)
         }
     }
 
-    getEmployees(): Employee[] {
+    public getEmployees(): Employee[] {
         return this.employees
     }
 }
